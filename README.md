@@ -1,0 +1,1 @@
+This is a basic ASP.NET Web API application that I use for my Web API talks. I will also start using this as a basic web applicaiton for working with/demoing Kendo UI. I will create branch as I introduce new ideas/tools/whatever but unless otherwise indicated in the branch name 'master' will allways be the branch with the latest/greatest stuff I'm working on.
