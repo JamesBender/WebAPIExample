@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDirectory.Core", "WebDir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDirectory.Web.Core", "WebDirectory.Web.Core\WebDirectory.Web.Core.csproj", "{7E6FE3C9-FD10-4CBC-85EA-3E3D92E376E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDirectory.IntegrationTests", "WebDirectory.IntegrationTests\WebDirectory.IntegrationTests.csproj", "{392F8CAD-DAFB-4F73-8B19-0006B73B585F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7E6FE3C9-FD10-4CBC-85EA-3E3D92E376E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E6FE3C9-FD10-4CBC-85EA-3E3D92E376E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E6FE3C9-FD10-4CBC-85EA-3E3D92E376E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392F8CAD-DAFB-4F73-8B19-0006B73B585F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392F8CAD-DAFB-4F73-8B19-0006B73B585F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392F8CAD-DAFB-4F73-8B19-0006B73B585F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392F8CAD-DAFB-4F73-8B19-0006B73B585F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

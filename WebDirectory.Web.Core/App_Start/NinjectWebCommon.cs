@@ -58,9 +58,7 @@ namespace WebDirectory.Web.Core.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind<IPersonModel>().To<PersonModel>();
-
-            kernel.Bind<WebDirectory.Core.IPersonRepository>().To<WebDirectory.Core.PersonRepository>();
+            kernel.Load<WebModule>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new NinjectResolver(kernel);
         }        
